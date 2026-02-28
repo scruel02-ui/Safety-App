@@ -1,0 +1,20 @@
+{
+  "name": "protectcard-safety-mode",
+  "version": "1.0.0",
+  "description": "Mobile-first PWA for quick safety rights guidance.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pwa",
+    "safety",
+    "express",
+    "offline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

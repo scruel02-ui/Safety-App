@@ -1,0 +1,10 @@
+{
+  "name": "ProtectCard – Safety Mode",
+  "short_name": "ProtectCard",
+  "description": "Mobile-first safety guidance app with quick rights scripts and emergency actions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "icons": []
+}
