@@ -1,0 +1,182 @@
+{
+  "app": {
+    "name": "ProtectCard – Safety Mode",
+    "disclaimer": "General information only — not legal advice. Laws and interpretations can vary by state and situation. Always comply with lawful orders while asserting your rights verbally."
+  },
+  "scenarios": [
+    {
+      "id": "pulled_over",
+      "title": "Pulled over by police",
+      "icon": "🚔",
+      "rightsPlain": [
+        "You have the right to remain silent.",
+        "You may refuse consent to a search of your vehicle.",
+        "You can ask why you were stopped.",
+        "You may ask if you are free to leave once the stop is complete.",
+        "You have the right to an attorney if you are detained or arrested."
+      ],
+      "sayThis": [
+        "Officer, I am remaining silent.",
+        "I do not consent to any searches.",
+        "Am I being detained, or am I free to leave?",
+        "I would like to speak to a lawyer."
+      ],
+      "steps": [
+        "Safely pull over and turn off your engine.",
+        "Keep your hands visible on the steering wheel.",
+        "Provide license, registration, and insurance if requested.",
+        "You do not have to answer investigative questions.",
+        "If asked to search your car, you may refuse verbally.",
+        "Do not physically interfere with officers.",
+        "If detained or arrested, clearly ask for a lawyer and remain silent."
+      ],
+      "legalBasis": [
+        {
+          "title": "4th Amendment",
+          "summary": "Protects against unreasonable searches and seizures. You generally may refuse consent to a vehicle search unless there is probable cause or a warrant."
+        },
+        {
+          "title": "5th Amendment",
+          "summary": "Protects against self-incrimination. You are not required to answer questions beyond basic identification."
+        },
+        {
+          "title": "6th Amendment",
+          "summary": "Guarantees the right to an attorney. Once you ask for a lawyer, questioning should stop."
+        },
+        {
+          "title": "1st Amendment",
+          "summary": "In many public settings, recording police is protected as long as you do not interfere."
+        }
+      ],
+      "importantNotes": [
+        "Say it calmly. Do not argue or raise your voice.",
+        "Do not resist physically — assert your rights verbally."
+      ]
+    },
+    {
+      "id": "stopped_on_foot",
+      "title": "Stopped on foot",
+      "icon": "🚶",
+      "rightsPlain": [
+        "You have the right to remain silent.",
+        "You may ask if you are being detained or if you are free to leave.",
+        "You do not have to consent to a search of your body or belongings.",
+        "If you are detained or arrested, you have the right to a lawyer.",
+        "In many public places, you may record police interactions as long as you do not interfere."
+      ],
+      "sayThis": [
+        "Am I being detained, or am I free to leave?",
+        "I choose to remain silent.",
+        "I do not consent to any searches.",
+        "I would like to speak to a lawyer."
+      ],
+      "steps": [
+        "Stop moving and keep your hands visible.",
+        "Stay calm and do not run or resist.",
+        "Ask clearly if you are being detained or free to leave.",
+        "If free to leave, walk away calmly.",
+        "If detained, remain silent and do not answer questions.",
+        "You may refuse consent to searches verbally.",
+        "If arrested, ask for a lawyer and stop speaking."
+      ],
+      "legalBasis": [
+        {
+          "title": "4th Amendment",
+          "summary": "Protects against unreasonable searches and seizures. Police may briefly detain you only if they have reasonable suspicion."
+        },
+        {
+          "title": "5th Amendment",
+          "summary": "Protects your right to remain silent. You are not required to answer investigative questions."
+        },
+        {
+          "title": "6th Amendment",
+          "summary": "Guarantees the right to an attorney. Once you request a lawyer, questioning should stop."
+        },
+        {
+          "title": "1st Amendment",
+          "summary": "Protects speech and, in many public settings, the right to record police activity without interference."
+        }
+      ],
+      "importantNotes": [
+        "If you’re free to leave, leave calmly — don’t keep talking.",
+        "Do not physically interfere — assert your rights verbally."
+      ]
+    },
+    {
+      "id": "police_at_my_door",
+      "title": "Police at my door",
+      "icon": "🚪",
+      "rightsPlain": [
+        "You do not have to open the door unless police have a warrant.",
+        "You may ask to see the warrant before opening the door.",
+        "You have the right to remain silent.",
+        "You do not have to consent to officers entering your home.",
+        "If you are detained or arrested, you have the right to a lawyer."
+      ],
+      "sayThis": [
+        "I do not consent to any searches or entry.",
+        "Do you have a warrant?",
+        "I choose to remain silent.",
+        "I would like to speak to a lawyer."
+      ],
+      "steps": [
+        "Stay inside and keep the door closed.",
+        "Ask who they are and why they are there.",
+        "Ask clearly if they have a warrant.",
+        "If they do not have a warrant, you may refuse entry.",
+        "If they do have a warrant, ask them to slide it under the door or show it through a window.",
+        "Do not answer questions beyond identifying yourself if required.",
+        "If officers enter, state clearly that you do not consent and remain silent.",
+        "If detained or arrested, ask for a lawyer and stop speaking."
+      ],
+      "legalBasis": [
+        {
+          "title": "4th Amendment",
+          "summary": "Protects against unreasonable searches and seizures. Police generally need a warrant or a recognized exception to enter your home."
+        },
+        {
+          "title": "5th Amendment",
+          "summary": "Protects your right to remain silent. You are not required to answer investigative questions."
+        },
+        {
+          "title": "6th Amendment",
+          "summary": "Guarantees the right to an attorney. Once you request a lawyer, questioning should stop."
+        }
+      ],
+      "importantNotes": [
+        "Speak through the door if possible.",
+        "Do not physically block officers — assert your rights verbally."
+      ]
+    },
+    {
+      "id": "emergency_911",
+      "title": "Emergency / 911",
+      "icon": "🆘",
+      "rightsPlain": [
+        "If you are in immediate danger, call 911 first.",
+        "You can ask for medical help, police, or fire services.",
+        "You can request an interpreter if needed.",
+        "You can share your location and a brief description of what’s happening."
+      ],
+      "sayThis": [
+        "My name is ____. I need help.",
+        "My location is ____.",
+        "I am in immediate danger. Please send help now.",
+        "The person involved looks like ____ and is wearing ____."
+      ],
+      "steps": [
+        "If you are in immediate danger, call 911.",
+        "State your location first (address, cross-streets, landmarks).",
+        "Describe what’s happening in one clear sentence.",
+        "Answer only what you can safely answer.",
+        "If you can, move to a safer place while staying aware.",
+        "After the call, alert a trusted contact and share your location."
+      ],
+      "legalBasis": [],
+      "importantNotes": [
+        "If it’s safe, stay on the line until the operator says you can hang up.",
+        "If speaking is unsafe, try to provide location and minimal details."
+      ]
+    }
+  ]
+}
